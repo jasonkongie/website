@@ -222,13 +222,6 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minimal-mistakes-jekyll (4.25.1)
-      jekyll (>= 3.7, < 5.0)
-      jekyll-feed (~> 0.1)
-      jekyll-gist (~> 1.5)
-      jekyll-include-cache (~> 0.1)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.3)
     minitest (5.22.3)
     mutex_m (0.2.0)
     net-http (0.4.1)
@@ -279,11 +272,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
+  jekyll (~> 3.9.5)
   jekyll-feed
   jekyll-include-cache
   jekyll-sitemap
-  minimal-mistakes-jekyll
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.5.9
+   2.4.0
