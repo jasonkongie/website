@@ -1,0 +1,44 @@
+name: Pages Build and Deployment
+
+on:
+  push:
+    branches:
+      - master  # or any other branch you want to deploy from
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'  # specify the Ruby version
+    - name: Build Jekyll site
+      run: |
+        gem install bundler
+        bundle install
+        bundle exec jekyll build
+
+  report-build-status:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Report Build Status
+      run: |
+        gh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" \
+        -F github_run_id="${{ github.run_id }}" \
+        -F conclusion="success"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: report-build-status
+    steps:
+    - uses: actions/checkout@v2
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site  # Adjust based on your site build directory
