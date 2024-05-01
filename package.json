@@ -1,10 +1,10 @@
 {
-  "name": "academic-pages",
-  "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "name": "minimal-mistakes",
+  "version": "3.4.2",
+  "description": "Minimal Mistakes Jekyll theme npm build scripts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "git://github.com/mmistakes/minimal-mistakes.git"
   },
   "keywords": [
     "jekyll",
