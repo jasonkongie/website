@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 locale                   : "en-US"
 title                    : "Jason Kong"
 title_separator          : "-"
@@ -289,6 +289,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
+  
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -333,3 +335,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+remote_theme: "mmistakes/minimal-mistakes@4.25.0"
