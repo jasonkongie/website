@@ -7,7 +7,6 @@
 # server process.
 
 # Basic Site Settings
-# theme: minimal-mistakes-jekyll
 locale                   : "en-US"
 title                    : "Jason Kong"
 title_separator          : "-"
