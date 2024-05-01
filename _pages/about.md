@@ -11,13 +11,14 @@ I am Jason Kong, a 2nd-year undergrad student in the CSE department at UC San Di
 
 **Current Research**
 ======
-I am currently engaged in cutting-edge research in hyper-dimensional computing (HDC), processing-in-memory (PIM) architectures, and compression methods for large language models (LLMs), under the supervision of Professor Tajana Rosing at the PRISM center.
+I am currently engaged in cutting-edge research in hyper-dimensional computing (HDC), processing-in-memory (PIM) architectures, and compression methods for large language models (LLMs), under the supervision of [Professor Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) at the [PRISM center](https://prism.ucsd.edu/) and [SeeLab](http://varys.ucsd.edu/).
 
 **Projects and Publications**
 ======
 - **Hardware and Sofware Co-Design for HDC and PIM Architectures:**
-  - Projects: FastChat (Lead), Alpa (Lead), FlexGen, vLLM
-  - Other Publications: ICML 23, SOSP 23, MLSys 23, MLSys 24
+  - Projects: MicroHD journal extension paper
+  - 
+
 - **TrimNet LLM Compression deployment in Edge Devices:**
-  - Projects: Vicuna (Lead), Chatbot Arena (Lead), LMSYS-Chat-1M (Lead)
-  - First-author Publications: NeurIPS 23, ICLR 24, Preprint 23, Preprint 24
+  - Projects: TrimNet workshop paper
+  - Target Conference: NeurIPS '24
