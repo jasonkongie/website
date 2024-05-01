@@ -276,3 +276,5 @@ DEPENDENCIES
   minimal-mistakes-jekyll
   webrick (~> 1.8)
 
+BUNDLED WITH
+   1.17.2
