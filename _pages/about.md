@@ -20,5 +20,4 @@ I am currently engaged in cutting-edge research in hyper-dimensional computing (
   - 
 
 - **TrimNet LLM Compression deployment in Edge Devices:**
-  - Projects: TrimNet workshop paper
-  - Target Conference: NeurIPS '24
+  - Developing optimized Large Language Models (LLMs) for deployment on edge devices using TrimNet and Activation-aware Weight Quantization (AWQ). Implementing task-specific LLM agents coordinated by a central control agent to enhance performance and resource utilization in real-time applications like video streaming and memory management on devices such as Raspberry Pi and Nvidia Jetson.
