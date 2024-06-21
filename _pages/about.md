@@ -15,9 +15,7 @@ I am currently engaged in cutting-edge research in hyper-dimensional computing (
 
 **Projects and Publications**
 ======
-- **Hardware and Sofware Co-Design for HDC and PIM Architectures:**
-  - Projects: MicroHD journal extension paper
-  - 
-
-- **TrimNet LLM Compression deployment in Edge Devices:**
-  - Developing optimized Large Language Models (LLMs) for deployment on edge devices using TrimNet and Activation-aware Weight Quantization (AWQ). Implementing task-specific LLM agents coordinated by a central control agent to enhance performance and resource utilization in real-time applications like video streaming and memory management on devices such as Raspberry Pi and Nvidia Jetson.
+- **TinyAgent: Quantization-aware Model Compression and Adaptation for On-device LLM Agent Deployment**
+  - **Abstract** Deploying LLMs on edge devices is challenging due to stringent memory resources and compute constraints. In edge applications, existing deployment solutions for LLM agents disaggregate the fine-tuning process for domain-specific adaptation and the post-training model compression process. As a result, it requires extensive experimentation to find a readily available model compression technique that minimizes a fine-tuned model's performance loss while satisfying a target hardware's memory constraints. To address this problem, we propose TinyAgent, which optimizes the deployment workflow by using a quantization-aware model compression technique for specialized decision-making LLM agents under resource-constrained environments. Our approach takes into account both deployment-time hardware constraints and challenges in post-training quantization during fine-tuning. Experimental results demonstrate that our approach not only achieves 8
+ less memory usage to make LLM inference possible across a variety of edge devices, but also consistently speeds up LLM inference by up to 
+ without compromising accuracy.
