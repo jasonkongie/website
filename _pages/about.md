@@ -15,5 +15,5 @@ I am currently engaged in cutting-edge research in hyper-dimensional computing (
 
 **Projects and Publications**
 ======
-- **[TinyAgentQuantization-aware Model Compression and Adaptation for On-device LLM Agent Deployment](http://www.jasonkongie/publication/tinyagent)**
-  - We introduce a novel LLM edge deployment solution to automatically fine-tune and compress domain-specific LLMs with up to 8x memory saving and inference speedup with minimal performance loss.
+- **TinyAgentQuantization-aware Model Compression and Adaptation for On-device LLM Agent Deployment**
+  - We introduce a novel LLM edge deployment solution to automatically fine-tune and compress domain-specific LLMs with up to 8x memory saving and inference speedup with minimal performance loss. This work will be presented at the ICML 2024 ES-FoMo-II workshop.
