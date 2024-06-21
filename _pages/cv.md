@@ -15,7 +15,6 @@ I am a Computer Engineering student at the University of California, San Diego, 
 
 Contact
 ======
-* Phone: 626-862-2184
 * Email: jckong@ucsd.edu
 * Location: University of California, San Diego
 
@@ -29,15 +28,11 @@ Education
 Skills
 ======
 * Programming Languages: Python, C, C++, R, Java, JavaScript & ReactJS, MATLAB
-* Database Management: MySQL, PostgreSQL, MongoDB
 * Hardware Design: SystemVerilog
 
 
 Current Research
 ======
-* **Hyperdimensional Computing and Processing-in-Memory**, PRISM/SeeLab - UC San Diego, January 2024 - Present
-  * Researching software-hardware co-design in hyperdimensional computing with a focus on Processing-In-Memory architectures to enhance AI accuracy and efficiency.
-
 * **LLM Compression**, PRISM/SeeLab - UC San Diego, April 2024 - Present
   * Implementing techniques for large language model compression to deploy models on edge devices.
 
@@ -53,6 +48,6 @@ Previous Work Experience
   * Developed software solutions for efficient room transfers and contact tracing during COVID-19.
 
 
-Publications
+**Publications**
 ======
-Coming Soon...
+TinyAgent: Quantization-aware Model Compression and Adaptation for On-device LLM Agent Deployment
