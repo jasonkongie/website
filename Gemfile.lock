@@ -271,6 +271,7 @@ DEPENDENCIES
   github-pages
   hawkins
   jekyll-feed
+  jekyll-include-cache
   jekyll-sitemap
   webrick (~> 1.8)
 

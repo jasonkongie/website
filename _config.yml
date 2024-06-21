@@ -335,4 +335,4 @@ compress_html:
     envs: development
 
 
-remote_theme: minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
