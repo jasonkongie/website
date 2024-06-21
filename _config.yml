@@ -335,4 +335,4 @@ compress_html:
     envs: development
 
 
-theme: jekyll-theme-minimal
+remote_theme: jekyll-theme-minimal
